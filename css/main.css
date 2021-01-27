@@ -1,0 +1,172 @@
+h1, p {
+  font-family: Century Gothic;
+}
+
+.s1, .s2, .s3, .s4, .s5 {
+  padding: 0 5vw;
+  text-align: center;
+}
+
+.s1 {
+  background: url("../images/slide1/shadow.png");
+  background-size: cover;
+}
+
+.s1 span {
+  color: white;
+}
+
+.s1 p {
+  -webkit-animation: fadeIn_p 3s;
+          animation: fadeIn_p 3s;
+}
+
+.s1 .img-happy {
+  height: 200px;
+  -webkit-animation: fadeIn_happy 3s;
+          animation: fadeIn_happy 3s;
+}
+
+.s1 .img-spark-1 {
+  position: absolute;
+  top: 34.9em;
+  left: 50em;
+  -webkit-animation-name: spark_animation;
+          animation-name: spark_animation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  opacity: 0;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.s1 .img-spark-2 {
+  position: absolute;
+  top: 33em;
+  left: 68em;
+  -webkit-animation-name: spark_animation;
+          animation-name: spark_animation;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  opacity: 0;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.s1 .img-spark-3 {
+  position: absolute;
+  top: 46.5em;
+  left: 50em;
+  -webkit-animation-name: spark_animation;
+          animation-name: spark_animation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  opacity: 0;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes spark_animation {
+  0% {
+    opacity: 0%;
+  }
+  49% {
+    opacity: 0%;
+  }
+  51% {
+    opacity: 100%;
+  }
+  99% {
+    opacity: 0%;
+  }
+}
+
+@keyframes spark_animation {
+  0% {
+    opacity: 0%;
+  }
+  49% {
+    opacity: 0%;
+  }
+  51% {
+    opacity: 100%;
+  }
+  99% {
+    opacity: 0%;
+  }
+}
+
+@-webkit-keyframes fadeIn_p {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeIn_p {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes fadeIn_happy {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeIn_happy {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.s2 {
+  background: url("../images/slide2/degrader1.png");
+  background-size: cover;
+}
+
+.s3 {
+  background: url("../images/slide3/degrader5.png");
+  background-size: cover;
+}
+
+.s4 {
+  background: url("../images/slide4/degrader3.png");
+  background-size: cover;
+}
+
+.s5 {
+  background: url("../images/slide5/degrader6.png");
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
